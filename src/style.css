@@ -27,6 +27,8 @@ img {
 }
 
 a {
+  cursor: pointer;
+  text-decoration: underline;
   text-decoration-color: var(--clr-accent);
   text-underline-offset: 4px;
   transition: color 0.2s ease;
@@ -168,7 +170,7 @@ mark {
 .section__content {
   display: grid;
   text-align: justify;
-  line-height: 1.4;
+  line-height: 1.6;
   gap: 0.5rem;
 }
 .section__content b {

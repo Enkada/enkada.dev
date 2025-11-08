@@ -112,14 +112,16 @@ header {
             opacity: 0;
             animation: opacity-in 0.5s ease forwards;
             animation-delay: calc(0.3s + 0.1s * var(--index));
+            transform-origin: center;
+            transition: scale 0.1s ease;
 
             &:active {
                 transform: translateY(1px);
-                scale: 1.1;
+                scale: 1.15;
             }
 
             &:hover {
-                scale: 1.1;
+                scale: 1.15;
             }
         }
 

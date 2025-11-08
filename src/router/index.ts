@@ -9,6 +9,7 @@ import EditPost from '../pages/EditPost.vue'
 import NotFound from '../pages/NotFound.vue'
 import TagEditor from '../pages/TagEditor.vue'
 import Music from '../pages/Music.vue'
+import Fumo from '../pages/Fumo.vue'
 
 const routes: RouteRecordRaw[] = [
   { 
@@ -61,6 +62,11 @@ const routes: RouteRecordRaw[] = [
     path: '/music',
     name: 'music',
     component: Music
+  },
+  {
+    path: '/fumo',
+    name: 'fumo',
+    component: Fumo
   }
 ]
 

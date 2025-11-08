@@ -72,7 +72,10 @@ const skills = [
                     <div class="link-button__icon">ᯓ</div>
                     <div class="link-button__text">Music</div>
                 </router-link>
-                <div class="hidden"></div>
+                <router-link to="/fumo" class="link-button fumo" :style="{ '--index': 1 }">
+                    <div class="link-button__icon">ᗜˬᗜ</div>
+                    <div class="link-button__text">Fumos</div>
+                </router-link>
                 <div class="hidden"></div>
             </div>
         </div>
@@ -143,6 +146,13 @@ main {
     &.music {
         .link-button__icon {
             background-image: linear-gradient(to top, #f45fff, #07f);
+        }
+    }
+
+    &.fumo {
+        .link-button__icon {
+            background-image: linear-gradient(to top, #b70909, #ff3);
+            font-size: 0.8rem;
         }
     }
 }
