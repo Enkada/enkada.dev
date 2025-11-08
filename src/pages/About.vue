@@ -151,7 +151,7 @@ main {
 
     &.fumo {
         .link-button__icon {
-            background-image: linear-gradient(to top, #b70909, #ff3);
+            background-image: linear-gradient(to top, #044146, rgb(2, 59, 10));
             font-size: 0.8rem;
         }
     }
