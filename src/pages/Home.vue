@@ -6,17 +6,7 @@ import { getPostUrl } from '../utils';
 import moment from 'moment';
 import type { Project } from '../types/Project';
 
-const posts = ref<Post[]>([{
-	id: -1,
-	title: 'Sample Post',
-	title_ru: '',
-	emoji: '📓',
-	date: new Date().toISOString(),
-	tags: ['Diary'],
-	status: 1,
-	content: '',
-	content_ru: ''
-}]);
+const posts = ref<Post[]>([]);
 const lastPost = ref<Post | null>(null);
 const projects = ref<Project[]>([]);
 
